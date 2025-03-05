@@ -71,7 +71,7 @@ updates:
       interval: "weekly"
     labels:
       - "autosubmit"
-    open-pull-requests-limit: 10
+    open-pull-requests-limit: 20
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-minor", "version-update:semver-patch"]
@@ -102,7 +102,7 @@ updates:
       prefix: "[dependabot]"
     schedule:
       interval: "weekly"
-    open-pull-requests-limit: 10
+    open-pull-requests-limit: 20
     labels:
       - "autosubmit"
     groups:
